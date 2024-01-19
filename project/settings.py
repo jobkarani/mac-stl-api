@@ -104,7 +104,7 @@ db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
 
 
-ALLOWED_HOSTS=['mac-stl-api-production.up.railway.app','127.0.0.1', 'https://mac-stl-api-production.up.railway.app/admin','http://localhost:4200']
+ALLOWED_HOSTS=['mac-stl-api-production.up.railway.app','127.0.0.1', 'https://mac-stl-api-production.up.railway.app/admin','http://localhost:4200', '35.230.16.13']
 
 CSRF_TRUSTED_ORIGINS = ['https://mac-stl-api-production.up.railway.app']
 
